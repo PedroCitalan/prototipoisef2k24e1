@@ -616,9 +616,6 @@ COMMIT;
 ALTER TABLE `Tbl_bitacora`
 ADD COLUMN `tabla` VARCHAR(50) NOT NULL;
 
--- -----------------------------------------------------
--- Table `educativo`.`Aulas`
--- -----------------------------------------------------
 CREATE TABLE tbl_aulas
 (
   codigo_aula VARCHAR(5),
