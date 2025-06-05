@@ -1,3 +1,21 @@
+commit 7486f45eb5353ae378aec3f994eded8d262862e5
+Author: PedroCitalan <pcitalanh@miumg.edu.gt>
+Date:   Thu Jun 5 09:30:55 2025 -0600
+
+    Cambios finales
+
+commit 7ecaae3366d20d5af43b96cacce29f4bc13dcd6e
+Author: PedroCitalan <pcitalanh@miumg.edu.gt>
+Date:   Thu Jun 5 09:28:24 2025 -0600
+
+    Cambios finales 2
+
+commit fda9fbdd347791404c92c0d889ea0df4bf20daa6
+Author: PedroCitalan <pcitalanh@miumg.edu.gt>
+Date:   Thu Jun 5 09:27:54 2025 -0600
+
+    Cambios finales 1
+
 commit cbe12676969808ecf09cfbf1c686065b2b7b9160
 Author: PedroCitalan <pcitalanh@miumg.edu.gt>
 Date:   Thu Jun 5 09:25:23 2025 -0600
