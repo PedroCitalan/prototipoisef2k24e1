@@ -1,4 +1,4 @@
-
+SET SQL_SAFE_UPDATES = 0; -- desactivar el modo seguro
 
 -- ALTERS DEL MODULO DE CONTABILIDAD 28-10-2024
 ALTER TABLE tbl_cuentas
