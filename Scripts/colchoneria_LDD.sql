@@ -616,6 +616,17 @@ COMMIT;
 ALTER TABLE `Tbl_bitacora`
 ADD COLUMN `tabla` VARCHAR(50) NOT NULL;
 
+-- -----------------------------------------------------
+-- Table `educativo`.`Aulas`
+-- -----------------------------------------------------
+CREATE TABLE tbl_aulas
+(
+  codigo_aula VARCHAR(5),
+  nombre_aula VARCHAR(45),
+  estado TINYINT(1) NOT NULL DEFAULT 1,
+  PRIMARY KEY (codigo_aula)
+) ENGINE = InnoDB DEFAULT CHARSET=latin1;
+
 
 -- Estructura de tabla para la tabla `ayuda`
 

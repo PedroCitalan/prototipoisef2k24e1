@@ -441,6 +441,18 @@ namespace Capa_Vista_Logistica
             ocultaSubMenu();
         }
 
+        private void Btn_MenuExamenFinal1_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<AulaNav>();
+            ocultaSubMenu();
+        }
+
+        private void Btn_MenuExamenFinal2_Click(object sender, EventArgs e)
+        {
+            Capa_Vista_Seguridad.frm_mostrar_bitacora mostrar_Bitacora = new Capa_Vista_Seguridad.frm_mostrar_bitacora(idUsuario);
+            mostrar_Bitacora.Show();
+        }
+
 
 
         #endregion

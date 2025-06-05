@@ -132,6 +132,10 @@
     <Compile Include="visualizar.Designer.cs">
       <DependentUpon>visualizar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="..\..\..\..\Reportes\Aulas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <Link>Aulas.rpt</Link>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cargar.resx">
       <DependentUpon>Cargar.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ahorrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

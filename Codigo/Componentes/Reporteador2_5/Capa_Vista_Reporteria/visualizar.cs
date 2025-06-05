@@ -33,11 +33,11 @@ namespace Capa_Vista_Reporteria
             string sExecutablePath = AppDomain.CurrentDomain.BaseDirectory;
 
             // Buscar la carpeta raíz "proyectois2k25" desde el ejecutable
-            string sProjectPath = sFindProjectRootDirectory(sExecutablePath, "proyectois2k25");
+            string sProjectPath = sFindProjectRootDirectory(sExecutablePath, "prototipoisef2k24e1");
 
             if (string.IsNullOrEmpty(sProjectPath))
             {
-                MessageBox.Show("❌ ERROR: No se encontró la carpeta 'proyectois2k25'", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("❌ ERROR: No se encontró la carpeta 'prototipoisef2k24e1'", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
